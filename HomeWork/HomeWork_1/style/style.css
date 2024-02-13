@@ -1,0 +1,13 @@
+.title {
+  text-align: center;
+}
+
+.classes-table {
+  width: 100%;
+}
+
+.buttons-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

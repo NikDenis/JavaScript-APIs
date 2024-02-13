@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Навигационное меню</title>
+  <style>
+    /* Стили для навигационного меню */
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      background-color: #333;
+    }
+
+    nav ul li {
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      display: block;
+      padding: 10px 20px;
+      color: #fff;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .hover {
+      background-color: #555;
+    }
+
+    .active {
+      background-color: #f00;
+    }
+
+    /* Стили для активной страницы */
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="content">
+    <!-- Содержимое страницы -->
+    <h1>Добро пожаловать на наш сайт</h1>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
