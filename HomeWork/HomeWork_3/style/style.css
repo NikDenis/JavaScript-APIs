@@ -1,0 +1,29 @@
+.button-like {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  width: 36px;
+  height: 36px;
+  background: url(../like-icons.png) no-repeat center / cover;
+}
+
+.like-wrapper {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.count-like {
+  display: block;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: -8px;
+  left: 29px;
+  text-align: center;
+  outline: 1px solid red;
+  background: red;
+  border-radius: 100%;
+}
